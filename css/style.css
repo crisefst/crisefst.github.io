@@ -185,8 +185,8 @@ header .nav {
   justify-content: center;
 
 position: absolute;
-  left: 600px;
-  top: 450px;
+  left: 60%;
+  top: 70%;
 
 }
 
@@ -529,9 +529,9 @@ footer {
 }
 
 
-/*style for mobile view on screen less than 500px*/
+/*style for mobile view on screen less than 576px*/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
 
 	header .nav {
 
@@ -640,6 +640,7 @@ footer {
 	.container .welcome-sec .contain {
 
 		left: 45%;
+		top: 90%;
 
 	}
 
@@ -672,7 +673,7 @@ footer {
 
 	.contact .contact-div {
 
-		width: 90%;
+		width: 80%;
 	}
 
 	.contact .contact-div h2 {
@@ -686,3 +687,4 @@ footer {
 		font-size: 20px;
 	}
 }
+
